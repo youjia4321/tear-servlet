@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+
+    <servlet>
+        <servlet-name>/OA/UserServlet</servlet-name>
+        <servlet-class>com.wang.servlet.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>/OA/UserServlet</servlet-name>
+        <url-pattern>/OA/UserServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
